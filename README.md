@@ -29,7 +29,7 @@ The code developed here to implement the quantitative metrics is ready to be use
 The following jupyter notebooks are possible to access:
  - 01_Data: Data preprocessing results and main conclusions drawn after performing an exploratory data analysis (EDA) on the training data. Cleaned data (data) and training + testing datasets were saved as csv files in folder "Data". Raw data is also present in this folder (heart).
  - 02_Models: Implementation of logistic regression, random forest, and support vector machine models, together with relevant evaluation metrics for both training and testing datasets. Trained models were saved as RDS files - folder "Models".
- - 03_Explanations: Code to produce the explanations for all used XAI methods. Global explanations are saved in folder "Global". Local explanations for patientas A, B, and C are saved in folders "Local_A", "Local_B", and "Local_C", respectively.
+ - 03_Explanations: Code to produce the explanations for all used XAI methods. Global explanations are saved in folder "Global". Local explanations for patients A, B, and C are saved in folders "Local_A", "Local_B", and "Local_C", respectively.
  - 04_Benchmark: Code to produce the quantitative evaluation results for all used XAI methods.
  - kernelSHAP: Code for producing the results for kernelSHAP. This is done in a separate notebook because "shapper" package only works with a lower version of R than the one provided by JupyerLab from Aalto University. Therefore, all the source code for producing the results for kernelSHAP was written using Anaconda 2.3.2.
  
